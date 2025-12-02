@@ -1,5 +1,5 @@
-<div align="center"> <h3><img src="./assets/Kardia-R1-Logo.png" width="32" style="margin-bottom: -4px;"/> 
- <strong>Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning</strong></h3>
+<div align="center"> <h2><img src="./assets/Kardia-R1-Logo.png" width="32" style="margin-bottom: -4px;"/> 
+ <strong>Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning</strong></h2>
 
 
 <h4 align="center"> <h4> 💗 We introduce <strong>Kardia-R1</strong>: teaching LLMs to understand, reason, and care — with transparent empathy 🌱</h4>
