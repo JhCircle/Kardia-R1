@@ -60,7 +60,7 @@
 
 - Consistent gains across **every empathy dimension**  
 - Stronger emotional grounding and persona alignment  
-- Scalable to **Qwen / Gemma / Llama / DeepSeek** backbones  
+- Scalable to **Qwen (3B/7B) / Gemma (2B/7B）** backbones  
 - Robust, generalizable empathetic cognition across diverse emotional contexts  
 
 <p align="center">
