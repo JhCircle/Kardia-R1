@@ -18,9 +18,12 @@
 
 
 ## 🔥 News
-* ```2025.12.02``` 🎉 [Kardia-R1](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
-* ```2025.12 (Upcoming)``` 📢 Full KardiaBench dataset (22K multi-turn dialogues, 671 personas) coming soon!
-
+* ```2025.12.02``` 🎉 Our [_Kardia-R1_](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
+* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/JhCircle/KardiaBench*)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
+> ```python
+> from datasets import load_dataset
+> dataset = load_dataset("JhCircle/KardiaBench")
+> ```
 ---
 
 ## 💞 What is Kardia-R1?
@@ -71,21 +74,52 @@
 > surpassing both **general-purpose LLMs** and **specialized empathetic dialogue systems**.
 
 ---
+### 📦 KardiaBench Dataset
+#### 📂 Dataset Overview
 
+**KardiaBench** is a large-scale empathetic dialogue dataset designed for  
+reasoning-centered emotional support, containing:
+
+- **22,080 empathetic multi-turn dialogues**
+- **671 fully documented personas**
+- **Fine-grained emotional states**
+- **Four-span structured reasoning format**
+- Fully anonymized & cleaned
+
+HuggingFace dataset: 👉 https://huggingface.co/datasets/JhCircle/KardiaBench
+
+---
+
+#### 📥 Load the Dataset
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("JhCircle/KardiaBench")
+```
+#### 📘**Data Fields**
+| Field | Description |
+|-------|-------------|
+| **person** | Full raw user profile string including MBTI, About, Signature, and Recent Activities. |
+| **mbti** | The user’s MBTI type extracted from the profile (e.g., “INFP”, “ISTP”). |
+| **emotion** | Target emotional state representing the user’s current feelings in the scenario (e.g., “anxious”, “terrified”). |
+| **situation** | Starting background context or emotional scenario for the conversation. |
+| **anon_username** | An anonymized username for privacy-preserving user identity. |
+| **messages** | Full structured dialogue as a list of message objects, including the system prompt, user turns, and assistant responses. |
 
 ## 📚 Citation
 
 If our work is helpful, please cite:
 
 ```bibtex
-@misc{yuan2025kardiar1,
-      title={Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning},
+@misc{yuan2025kardiar1unleashingllmsreason,
+      title={Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning}, 
       author={Jiahao Yuan and Zhiqing Cui and Hanqing Wang and Yuansheng Gao and Yucheng Zhou and Usman Naseem},
       year={2025},
       eprint={2512.01282},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.01282},
+      url={https://arxiv.org/abs/2512.01282}, 
 }
 ```
 
