@@ -19,7 +19,7 @@
 
 ## 🔥 News
 * ```2025.12.02``` 🎉 Our [_Kardia-R1_](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
-* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/JhCircle/KardiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
+* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KadiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
 > ```python
 > from datasets import load_dataset
 > dataset = load_dataset("JhCircle/KardiaBench")
@@ -86,7 +86,7 @@ reasoning-centered emotional support, containing:
 - **Four-span structured reasoning format**
 - Fully anonymized & cleaned
 
-HuggingFace dataset: 👉 https://huggingface.co/datasets/JhCircle/KardiaBench
+HuggingFace dataset: 👉 **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KadiaBench)**
 
 ---
 
