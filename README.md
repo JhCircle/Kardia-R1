@@ -19,7 +19,7 @@
 
 ## 🔥 News
 * ```2025.12.02``` 🎉 Our [_Kardia-R1_](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
-* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/JhCircle/KardiaBench*)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
+* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/JhCircle/KardiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
 > ```python
 > from datasets import load_dataset
 > dataset = load_dataset("JhCircle/KardiaBench")
