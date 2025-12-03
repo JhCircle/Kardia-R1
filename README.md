@@ -6,6 +6,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2512.01282-b31b1b.svg)](https://arxiv.org/abs/2512.01282)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JhCircle/Kardia-R1?style=social)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-KardiaBench-orange.svg)](https://huggingface.co/datasets/Jhcircle/KadiaBench)
 </div>
 
 <p align="center"> <strong>💌 Contact:</strong> <a href="mailto:jamse_yuan@163.com">jamse_yuan@163.com</a> </p>
@@ -20,7 +21,9 @@
 ## 🔥 News
 * ```2025.12.02``` 🎉 Our [_Kardia-R1_](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
 * ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KadiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
-> ```python
+> ```markdown
+> ### Authentication & Loading the Dataset
+> huggingface-cli login
 > from datasets import load_dataset
 > dataset = load_dataset("JhCircle/KardiaBench")
 > ```
@@ -91,11 +94,19 @@ HuggingFace dataset: 👉 **[_KardiaBench_](https://huggingface.co/datasets/Jhci
 ---
 
 #### 📥 Load the Dataset
-
+To prevent misuse of sensitive data, our dataset requires an access request on HuggingFace. Please follow the instructions below to obtain access.
+- Submit an Access Request describing the intended use
+- Wait for approval from the maintainers — we will review and approve requests as quickly as possible
 ```python
 from datasets import load_dataset
 
 dataset = load_dataset("JhCircle/KardiaBench")
+```
+If you encounter AccessDenied or 403 Forbidden errors, your access request may still be pending or your [HuggingFace authentication](https://huggingface.co/docs/huggingface_hub/main/en/guides/cli) may be missing.
+
+Login manually if needed:
+```markdown
+huggingface-cli login
 ```
 #### 📘**Data Fields**
 | Field | Description |
