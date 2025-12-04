@@ -123,14 +123,11 @@ huggingface-cli login
 If our work is helpful, please cite:
 
 ```bibtex
-@misc{yuan2025kardiar1unleashingllmsreason,
-      title={Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning}, 
-      author={Jiahao Yuan and Zhiqing Cui and Hanqing Wang and Yuansheng Gao and Yucheng Zhou and Usman Naseem},
-      year={2025},
-      eprint={2512.01282},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.01282}, 
+@article{yuan2025kardia,
+  title={Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning},
+  author={Yuan, Jiahao and Cui, Zhiqing and Wang, Hanqing and Gao, Yuansheng and Zhou, Yucheng and Naseem, Usman},
+  journal={arXiv preprint arXiv:2512.01282},
+  year={2025}
 }
 ```
 
