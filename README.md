@@ -25,7 +25,7 @@
 > ### Authentication & Loading the Dataset
 > huggingface-cli login
 > from datasets import load_dataset
-> dataset = load_dataset("JhCircle/KardiaBench")
+> dataset = load_dataset("Jhcircle/KadiaBench")
 > ```
 ---
 
@@ -100,7 +100,7 @@ To prevent misuse of sensitive data, our dataset requires an access request on H
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("JhCircle/KardiaBench")
+dataset = load_dataset("Jhcircle/KadiaBench")
 ```
 If you encounter AccessDenied or 403 Forbidden errors, your access request may still be pending or your [HuggingFace authentication](https://huggingface.co/docs/huggingface_hub/main/en/guides/cli) may be missing.
 
