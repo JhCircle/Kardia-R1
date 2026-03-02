@@ -6,7 +6,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2512.01282-b31b1b.svg)](https://arxiv.org/abs/2512.01282)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JhCircle/Kardia-R1?style=social)
-[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-KardiaBench-orange.svg)](https://huggingface.co/datasets/Jhcircle/KadiaBench)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-KardiaBench-orange.svg)](https://huggingface.co/datasets/Jhcircle/KardiaBench)
 </div>
 
 <p align="center"> <strong>💌 Contact:</strong> <a href="mailto:jamse_yuan@163.com">jamse_yuan@163.com</a> </p>
@@ -21,12 +21,12 @@
 ## 🔥 News
 * ```2026.01.14``` 🎉 Excited to share that our work, [_Kardia-R1_](https://arxiv.org/abs/2512.01282), has been accepted at **WWW 2026**! 
 * ```2025.12.02``` 🎉 Our [_Kardia-R1_](https://arxiv.org/abs/2512.01282) paper released on arXiv — check it out now!
-* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KadiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
+* ```2025.12.03``` 🚀 The full **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KardiaBench)** dataset (22K multi-turn dialogues, 671 personas) is **now officially released and open-sourced** on HuggingFace!
 > ```markdown
 > ### Authentication & Loading the Dataset
 > huggingface-cli login
 > from datasets import load_dataset
-> dataset = load_dataset("Jhcircle/KadiaBench")
+> dataset = load_dataset("Jhcircle/KardiaBench")
 > ```
 ---
 
@@ -90,7 +90,7 @@ reasoning-centered emotional support, containing:
 - **Four-span structured reasoning format**
 - Fully anonymized & cleaned
 
-HuggingFace dataset: 👉 **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KadiaBench)**
+HuggingFace dataset: 👉 **[_KardiaBench_](https://huggingface.co/datasets/Jhcircle/KardiaBench)**
 
 ---
 
@@ -101,7 +101,7 @@ To prevent misuse of sensitive data, our dataset requires an access request on H
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("Jhcircle/KadiaBench")
+dataset = load_dataset("Jhcircle/KardiaBench")
 ```
 If you encounter AccessDenied or 403 Forbidden errors, your access request may still be pending or your [HuggingFace authentication](https://huggingface.co/docs/huggingface_hub/main/en/guides/cli) may be missing.
 
