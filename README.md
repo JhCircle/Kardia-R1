@@ -7,6 +7,8 @@
 [![Paper](https://img.shields.io/badge/arXiv-2512.01282-b31b1b.svg)](https://arxiv.org/abs/2512.01282)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JhCircle/Kardia-R1?style=social)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-KardiaBench-orange.svg)](https://huggingface.co/datasets/Jhcircle/KardiaBench)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Kardia--R1-orange.svg)](https://huggingface.co/Jhcircle/Kardia-R1)
+
 </div>
 
 <p align="center"> <strong>💌 Contact:</strong> <a href="mailto:jamse_yuan@163.com">jamse_yuan@163.com</a> </p>
